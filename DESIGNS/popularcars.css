@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+nav {
+    background: black;
+    position: sticky;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav img {
+    height: 80px;
+    border-radius: 50px;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+.submenu {
+    display: none;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.submenu ul {
+    display: block;
+    margin: 10px;
+}
+
+.submenu ul li {
+    width: 150px;
+    padding: 10px;
+
+}
+
+.bannerimg {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.441) url("../Popularcars/banner3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bannerimg h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    padding: 18%;
+}
+
+.bannerimg h1 span {
+    color: rgb(251, 255, 0);
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.sticky {
+    padding: 10px 0;
+    background: #1b1b1b;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background: #000;
+}
+
+.names {
+    position: relative;
+}
+
+.names h1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 8em;
+}
+
+.names h1:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+}
+
+.names h1:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 1.8s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
+
+.quote {
+    padding: 150px;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.708) url("../Popularcars/banner2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.quote h1 {
+    font-family: Martian Mono;
+    word-spacing: 10px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 125px;
+    color: rgb(0, 0, 0);
+    background-color: none;
+}
+
+.quote h3 {
+    font-family: Martian Mono;
+    font-size: 26px;
+    margin-left: 125px;
+
+}
+
+.content {
+    margin: 5%;
+}
+
+.content h1 {
+    margin: 5%;
+    font-size: 50px;
+}
+
+.content p {
+    font-size: 18px;
+    margin: 2%;
+}
+
+
+
+.models-1 h1 {
+    margin-top: 4%;
+    font-size: 50px;
+}
+
+.models-1 h3 {
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.models-1 p {
+    font-size: 20px;
+    margin: 2%;
+
+}
+
+
+/* model 1 starts here  img, overll, h2, ul , p*/
+.models img {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+
+.models {
+    margin-top: 2%;
+    background-color: lightgray;
+    padding: 80px;
+
+}
+
+.models h2 {
+    font-size: 30px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.models ul {
+    font-size: 20px;
+}
+
+.models p {
+    text-align: center;
+}
+/* model 2 starts here..... img, overall, p, h2, ul */ 
+
+.models2 img {
+    width: 35%;
+    float: right;
+    margin-left: 10%;
+}
+
+.models2 {
+    margin-top: 2%;
+    background-color: lightgray;
+    padding: 80px;
+    justify-content: center;
+}
+.models2 p{
+    text-align: center;
+}
+
+.models2 h2 {
+    font-size: 30px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.models2 ul {
+    font-size: 20px;
+}
+

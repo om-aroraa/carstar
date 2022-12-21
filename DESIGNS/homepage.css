@@ -1,0 +1,188 @@
+/* for body */
+.banner {
+    height: 100vh;
+    background: blue;
+    background: url("../images/BANNERDIVO.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 400px;
+    height: 125px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 50px;
+
+}
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+/* /navigation bar starts here/ */
+.navbar {
+    background-color: rgb(0, 80, 102);
+    border-radius: 30px;
+
+}
+
+.navbar ul {
+    cursor: pointer;
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.navbar li a:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+
+/* navigationbar ends here */
+/* for carstar heading */
+h1 {
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+
+.logo {
+    color: rgb(255, 177, 141);
+}
+
+.logo span {
+    color: rgb(255, 0, 0);
+}
+
+/* carstar heading ends here */
+
+/* menu bar starts here */
+/* sub-menu1 is for all car brands  */
+.sub-menu1 {
+    border-radius: 14px;
+    display: none;
+}
+
+/* menubar1 is almost as same as navbar */
+.menubar1 ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 80, 102);
+    margin-left: 15px;
+    width: 500px;
+    height: 400px;
+}
+
+.menubar1 ul li:hover .sub-menu1 ul {
+    display: block;
+    margin: 10px;
+}
+
+/* sub-menu2 is for popular brands */
+.sub-menu2 {
+    border-radius: 14px;
+    display: none;
+}
+
+.menubar1 ul li:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 80, 102);
+    margin-left: 15px;
+    width: 250px;
+    height: 210px;
+}
+
+.menubar1 ul li:hover .sub-menu2 ul {
+    display: block;
+    margin: 10px;
+}
+
+/* sub-menu3 is for lists */
+.sub-menu3 {
+    border-radius: 14px;
+    display: none;
+}
+
+.menubar1 ul li:hover .sub-menu3 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 80, 102);
+    width: 300px;
+    height: 200px;
+}
+
+.menubar1 ul li:hover .sub-menu3 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menubar1 ul li:hover .sub-menu3 ul li {
+    border-bottom: 1px dashed cyan;
+    text-align: left;
+}
+
+
+img{
+    width: 50%;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+/* menubar ends here */
+p{
+    font-size: 20px;
+    width: 50%;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ #ty{
+    font-size:30px;
+ }
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    font-size:medium;
+    text-align: center;
+ 
+}
+.inline{
+     display: inline-block;
+}
+footer img{
+    width: auto;
+    float: center;
+}

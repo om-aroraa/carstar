@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+}
+.logo img{
+    height: 82px;
+    width: 350px;
+}
+.navbar{
+    position: fixed;
+    background-color: #1b1b1b;
+    z-index: 5;
+    width: 100%;
+    padding: 20px 0px;
+    transition: all 0.3 ease;
+}
+.sticky {
+    padding: 10px 0;
+    background: #1b1b1b;
+}
+.navbar .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu-list li{
+    list-style: none;
+}
+.menu-list li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.navbar .menu-list{
+    display: inline-flex;
+}
+.banner-decade{
+    height: 100vh;
+    background: blue;
+    background: url("../images/bannerdecade.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-supercar{
+    height: 100vh;
+    background: blue;
+    background: url("../images/bannersupercars.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-greatestcar{
+    height: 100vh;
+    background: blue;
+    background: url("../images/bannergreatestcar.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about{
+    padding: 40px 0;
+}
+.about .title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.about p{
+    padding-top: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+.content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.cover {
+
+    background: rgb(0, 0, 0);
+    margin-top: 50px;
+    display: flex;
+    color: aliceblue;
+
+}
+.cover h1{
+    color:  rgb(255, 0, 123);
+    margin: 30px;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+.box {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+p {
+    font-size: 17px;
+}
+#search {
+    width: 140px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.cover p{
+    margin: 30px;
+}
