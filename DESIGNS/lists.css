@@ -45,7 +45,7 @@
 .banner-decade{
     height: 100vh;
     background: blue;
-    background: url("../images/bannerdecade.jpg") no-repeat;
+    background: url("images/bannerdecade.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -53,7 +53,7 @@
 .banner-supercar{
     height: 100vh;
     background: blue;
-    background: url("../images/bannersupercars.jpg") no-repeat;
+    background: url("images/bannersupercars.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -61,7 +61,7 @@
 .banner-greatestcar{
     height: 100vh;
     background: blue;
-    background: url("../images/bannergreatestcar.jpg") no-repeat;
+    background: url("images/bannergreatestcar.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
