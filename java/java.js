@@ -1,6 +1,6 @@
 function am(f, a){
-    let path = 'https://om-aroraa.github.io/carstar//all%20cars';
-    window.location.replace(`${path}\\${f}\\${a}.html`);
+    let path = '/all%20cars';
+    window.location.href = `${path}/${f}/${a}.html`;
 }
 
 console.log("Script Loaded!")
