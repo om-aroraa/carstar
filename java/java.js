@@ -3,7 +3,7 @@ function am(f, a){
     window.location.href = `${path}/${f}/${a}.html`;
 }
 
-console.log("Script Loaded!")
+console.log("Javascript Script Loaded!")
 
 window.onscroll = () => {
     this.scrollY > 20 ? document.getElementById("navi").classList.add("sticky") : document.getElementById("navi").classList.remove("sticky");
