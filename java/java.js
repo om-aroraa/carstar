@@ -1,5 +1,5 @@
 function am(f, a){
-    let path = '/all%20cars';
+    let path = '/carstar/all%20cars';
     window.location.href = `${path}/${f}/${a}.html`;
 }
 
