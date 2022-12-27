@@ -2,7 +2,7 @@
 .banner {
     height: 100vh;
     background: blue;
-    background: url("images/BANNERDIVO.jpg") no-repeat;
+    background: url("https://om-aroraa.github.io/carstar/images/BANNERDIVO.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
