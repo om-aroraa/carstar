@@ -1,4 +1,5 @@
 CarStar
+
 Welcome to Carstar, your go-to resource for information and updates on the world of supercars. This project is a dynamic website dedicated to enthusiasts, collectors, and anyone passionate about high-performance automobiles. Whether you're looking for specifications, reviews, or the latest news, SuperCarsHub has got you covered.
 
 Features
